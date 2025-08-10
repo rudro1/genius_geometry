@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="container">
+    <spanp id="name">Programming Hero</span>
+
+        <a href="https://example.com" id="myLink">Click me</a>
+
+<script>
+  const link = document.getElementById("myLink");
+
+  link.addEventListener("click", function(event) {
+    event.preventDefault();  // This stops the default navigation
+    alert("Default behavior prevented!");
+  });
+
+const nameOfOrganization = document.getElementById("name").innerText;
+// var container = document.getElementById('container');
+// container.innerHTML = '';
+console.log(nameOfOrganization);
+</script>
+</body>
+</html>

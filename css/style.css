@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+input{
+
+    background-color:white;
+    color:black;
+    padding: 0 !important;
+    text-align: center;
+    margin: 2px;
+}
+img{
+    max-width: 70%;
+}
+
+.td {
+    border: 4px solid black;
+    background-color: wheat;
+}
